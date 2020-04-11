@@ -1,0 +1,39 @@
+{
+  "name": "expo-video",
+  "version": "1.0.1",
+  "description": "Video component for Expo/React Native",
+  "main": "index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "github.com/deebov/expo-video"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "expo",
+    "video",
+    "audio",
+    "player",
+    "android",
+    "ios"
+  ],
+  "author": "Dilshod Turobov <deebov@yandex.com> (github.com/deebov)",
+  "license": "MIT",
+  "dependencies": {
+    "expo-av": "^8.1.0",
+    "use-debounce": "^3.4.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "react": "~16.9.0",
+    "react-native": "0.61.5"
+  },
+  "homepage": "https://github.com/deebov/expo-video",
+  "bugs": {
+    "url": "https://github.com/deebov/expo-video/issues"
+  },
+  "readmeFilename": "README.md"
+}
