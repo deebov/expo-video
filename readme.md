@@ -94,18 +94,19 @@ const styles = StyleSheet.create({
 
 ## Props
 
-Props extends Expo's expo-av props. So you can pass any prop that expo-av takes.
+Props extends Expo's `expo-av` props. So you can pass any prop that `expo-av` takes.
 
 Prop | Description | Type | Default
 ------ | ------ | ------ | ------
-**`paused(paused:boolean)`** | If `true` video will be paused, if `false` then video will be started from the position it was paused | Callback | `false`
-**`bufferUpdateInterval(interval:number)`** | Waits `inteval` milliseconds before comparing previous `isBuffering` state and current `isBuffering`. If changed, then calls `onBuffer` if provided | Callback | `10`
+**`paused`** | If `true` video will be paused, if `false` then video will be started from the position it was paused | Boolean | `false`
+**`bufferUpdateInterval`** | Waits `inteval` milliseconds before comparing previous `isBuffering` state and current `isBuffering`. If changed, then calls `onBuffer` if provided | Number (milliseconds) | `10`
 **`onPlay(isPlaying:boolean)`** | Gets called when `isPlaying` status is changed | Callback 
 **`onBuffer(isBuffering:boolean)`** | Gets called when `isBuffering` status is changed | Callback 
 **`onProgress(progress:Progress)`** | Gets called when position milliseconds are changed or within `progressUpdateIntervalMillis` interval time | Callback 
 **`onPlayableProgress(playableProgress:PlayableProgress)`** | Gets called when playable duration is changed or within `progressUpdateIntervalMillis` interval time | Callback 
 **`onVolumeChange(volume:number)`** | Gets called when `volume` is changed | Callback 
 **`onEnd(isPlaying:boolean)`** | Gets called when video ends | Callback 
+
 
 ## Types
 
