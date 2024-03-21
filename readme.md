@@ -1,4 +1,4 @@
-# Video component for Expo/React Native
+# DEPRECATED – Video component for Expo/React Native
 
 This library is a wrapper around Expo's expo-av library. Because Expo's video api is not really simple this component was built to make it simpler.
 
